@@ -1,0 +1,149 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d4e6f1;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 900px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.drop-zone {
+  border: 2px dashed #bdc3c7;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+  color: #7f8c8d;
+}
+
+.drop-zone.active {
+  border-color: #3498db;
+  background-color: #ebf5fb;
+  color: #2980b9;
+  transform: scale(1.01);
+}
+
+.drop-zone p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.file-upload-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #95a5a6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.file-upload-btn:hover {
+  background-color: #7f8c8d;
+}
+
+.text-display-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.text-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  border: 2px solid #dfe6e9;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.read-only {
+  background-color: #f8f9fa;
+  color: #2d3436;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.1s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.compress {
+  background-color: #2278b1;
+  color: white;
+}
+
+.decompress {
+  background-color: #cc2eb2;
+  color: white;
+}
+
+.metrics-container {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #8e44ad;
+}
+
+.metrics-container h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
