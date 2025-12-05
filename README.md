@@ -1,4 +1,4 @@
-Aceasta este o aplicatie simpla care comprima textul. Adica daca ai "aaabbb", il face "a3b3". Am facut si partea de Hard Mode, deci merge si cu emoji-uri si poti sa tragi fisiere direct in pagina.
+Aceasta este o aplicatie simpla care comprima textul. Adica daca ai "aaabbb", il face "a3b3". Merge si cu emoji-uri si poti sa tragi fisiere direct in pagina.
 
 Cum il pornesti:
 
